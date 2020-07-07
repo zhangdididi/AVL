@@ -1,13 +1,13 @@
 public class Node {
     int key;
 
+    Node left;
+    Node right;
+    
     /**
      * 平衡因子
      */
     int bf;
-
-    Node left;
-    Node right;
 
     /**
      * 记录结点的父结点，如果结点是根结点，则 parent == null
